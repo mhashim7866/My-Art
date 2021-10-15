@@ -1,0 +1,122 @@
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+nav{
+    background-color: #ffffff;    
+    padding: 15px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.f-right{
+    float: right;
+    padding: 15px;
+    margin-top: -15px;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.44);
+    color: rgb(255, 255, 255);
+    transition: 0.4s; 
+}
+
+.images-waith{
+    flex: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.half-img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-2{
+    width: 50%;
+    float: right;
+}
+
+.image-3{
+    width: 50%;
+    height: 50%;
+}
+
+.image-4{
+    width: 50%;
+    height: 10%;
+    margin-top: -39%;
+}
+
+.image-5{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+.about h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.about p{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 100%;
+}
+.pink{
+    color: rgb(237, 9, 47);
+}
+
+
+.input-form{
+    text-align: center;
+}
+
+.align-input input{
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: lightgrey;
+    width: 51%;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+footer{
+    text-align: center;
+    margin-top: 1%;
+}
